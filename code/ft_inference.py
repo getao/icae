@@ -1,3 +1,5 @@
+# example code for running inference with fine-tuned checkpoint
+
 import transformers
 
 import torch
