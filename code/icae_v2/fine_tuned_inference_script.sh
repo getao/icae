@@ -11,6 +11,6 @@ mem=128
 r=512
 mean_compression_rate=4
 
-ICAE_MODEL_PATH=$1  # ICAE model to use; download from "https://huggingface.co/sggetao/icae/resolve/main/mistral_7b_ft_icae.safetensors?download=true"
+ICAE_MODEL_PATH=$1  # ICAE model to use; wget "https://huggingface.co/sggetao/icae/resolve/main/mistral_7b_ft_icae.safetensors"
 
 python ft_v2.6_inference.py --mean_compression_rate $mean_compression_rate --model_max_length $maxlen --fixed_mem_size $mem --lora_r $r --output_dir $ICAE_MODEL_PATH --model_name_or_path $BASE_MODEL --bf16 --train False
