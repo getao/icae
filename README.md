@@ -15,7 +15,9 @@ Two new ICAE models based on Mistral-7B were released. These include a pretraine
 Compared with the V1 released model, the Mistral-7B ICAE models extend support to multi-span concatenation, as illustrated in Figure 6 of the paper.
 
 ### Version 1 (September 2023)
-This is the initial release of the In-context Autoencoder repository, which includes the PwC dataset, ICAE model code, and the Llama-2-7b-chat fine-tuned ICAE model evaluated in the paper.
+This is the inaugural release of the In-context Autoencoder repository. This particular iteration includes the PwC dataset, the primary ICAE model code, and a fine-tuned ICAE model, Llama-2-7b-chat, that was scrutinized and optimized in the associated academic paper.
+
+The first version of the ICAE model is based in the Llama-2-7b-chat, which is used in the paper. It can be downloaded from [this link](https://huggingface.co/sggetao/icae/resolve/main/llama-2-7b-chat-finetuned-icae_zeroweight_llama2.pt). Please use the model with the code available in the [code/icae_v1](https://github.com/username/repo/tree/main/code/icae_v1) directory.
 
 ## Cite Us
 
