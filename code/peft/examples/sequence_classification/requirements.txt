@@ -1,5 +1,0 @@
-transformers
-accelerate
-evaluate
-tqdm
-datasets

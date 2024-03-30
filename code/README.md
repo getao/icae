@@ -1,15 +1,15 @@
-# ICAE code
+# ICAE Code
 
-Update (V2, Feb 2024):
+## Updated Version (V2, March 2024):
 
-1. Upload two Mistral-based checkpoints and corresponding inference code in the folder icae_v2/
+1. Two Mistral-based checkpoints along with corresponding inference code have been uploaded in the 'icae_v2/' folder.
 
-2. For the V2 models, you can use the official peft package and transformers==4.36.2
+2. For our V2 models, please use the official PEFT package and install Transformers version 4.36.2.
 
-Original (V1, Sep 2023):
+## Original Version (V1, September 2023):
 
-1. Our customized peft is a must to use our code to reproduce our result. You should install the peft package with the command: "pip install -e peft/"
+1. To reproduce our results, the use of our customized PEFT package is required. Install it by running the following command: "pip install -e peft/"
 
-2. icae/ contains the core code of In-context Autoencoder (ICAE) where utils/stable_trainer.py is for token-level (micro-avg) loss during training. If you don't care token-level or sample-level, you can ignore it and use the default trainer.py.  
+2. The core code for In-Context Autoencoder (ICAE) is located in the 'icae/' directory. Within this directory, 'utils/stable_trainer.py' is used for token-level (micro-average) loss during training. If you are not concerned with token-level or sample-level details, this can be ignored and you may utilize the default 'trainer.py'.  
 
-3. transformers==4.31.0 is required. The earlier versions of transformers are not supported
+3. Transformers version 4.31.0 is necessary. Please note that earlier versions of Transformers are not supported.
