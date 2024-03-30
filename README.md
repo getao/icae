@@ -12,7 +12,7 @@ This repository contains the code, data, and models pertaining to our paper ["In
 ### Version 2 (March 2024)
 Two new ICAE models based on Mistral-7B were released. These include a pretrained model an instruction fine-tuned model. The inference code accompanying these models is also provided.
 
-Compared with the V1 released model, the Mistral-7B ICAE models extend support to multi-span concatenation, as illustrated in Figure 6 of the paper.
+Compared with the V1 released model, the Mistral-7B ICAE models extend support to multi-span concatenation, as illustrated in Figure 6 of the paper. Also, they extend the max input length to 5120.
 
 In the release of V2, I move the dataset and models to my [huggingface repo](https://huggingface.co/sggetao).
 
