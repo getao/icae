@@ -1,7 +1,0 @@
-transformers
-accelerate
-evaluate
-tqdm
-datasets
-Pillow
-torchvision
