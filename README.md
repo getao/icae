@@ -1,4 +1,6 @@
-This repository contains the code, data, and models pertaining to our paper ["In-context Autoencoder for Context Compression in a Large Language Model"](https://arxiv.org/abs/2307.06945), which has been accepted for presentation at ICLR 2024.
+This repository contains the code, data, and models pertaining to our paper ["In-context Autoencoder for Context Compression in a Large Language Model"](https://arxiv.org/abs/2307.06945), which has been accepted by ICLR 2024.
+
+![ICAE Illustration](./icae_demo.png)
 
 ## Resources
 
