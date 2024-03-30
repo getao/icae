@@ -3,7 +3,7 @@ import torch
 from tqdm import tqdm
 from transformers import HfArgumentParser
 from peft import LoraConfig
-from .modeling_icae_multi import ICAE, ModelArguments, DataArguments, TrainingArguments
+from modeling_icae_multi_span import ICAE, ModelArguments, DataArguments, TrainingArguments
 import sys
 from safetensors.torch import load_file
 
