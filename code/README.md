@@ -1,5 +1,11 @@
 # ICAE Code
 
+## Updated (April 2024):
+
+1. Add pretrain.py, instruction_finetune.py and training_utils to icae_v2/, which can be used to train the ICAE.
+
+2. **Very important**: Don't use fp16 to train the ICAE; make sure you train the model with bfloat16.
+
 ## Updated Version (V2, March 2024):
 
 1. Two Mistral-based checkpoints along with corresponding inference code have been uploaded in the 'icae_v2/' folder.
