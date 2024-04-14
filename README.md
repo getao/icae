@@ -11,7 +11,7 @@ This repository contains the code, data, and models pertaining to our paper ["In
 
 ## Updates
 
-## Updated (April 2024):
+### Updated (April 2024):
 
 Add pretrain.py, instruction_finetune.py and training_utils to icae_v2/, which can be used to train the ICAE.
 
