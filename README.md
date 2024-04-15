@@ -22,6 +22,16 @@ Compared with the V1 released model, the Mistral-7B ICAE models extend support t
 
 In the release of V2, I move the dataset and models to my [huggingface repo](https://huggingface.co/sggetao).
 
+One can simply try the released ICAE models by running:
+
+```
+cd icae/code/icae_v2
+# run the instruction fine-tuned ICAE model
+bash fine_buned_inference_script.sh
+# run the pretrained ICAE model
+bash pretrained_inference_script.sh
+```
+
 ### Version 1 (September 2023)
 This is the original release of the In-context Autoencoder repository. This particular iteration includes the PwC dataset, the code, and a fine-tuned ICAE model based on Llama-2-7b-chat that is used in the paper.
 
