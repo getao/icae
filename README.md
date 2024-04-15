@@ -33,11 +33,11 @@ If our work contributes to your research, please cite our paper:
 
 ```bibtex
 @inproceedings{
-ge2024incontext,
-title={In-context Autoencoder for Context Compression in a Large Language Model},
-author={Tao Ge and Hu Jing and Lei Wang and Xun Wang and Si-Qing Chen and Furu Wei},
-booktitle={The Twelfth International Conference on Learning Representations},
-year={2024},
-url={https://openreview.net/forum?id=uREj4ZuGJE}
+  ge2024incontext,
+  title={In-context Autoencoder for Context Compression in a Large Language Model},
+  author={Tao Ge and Hu Jing and Lei Wang and Xun Wang and Si-Qing Chen and Furu Wei},
+  booktitle={The Twelfth International Conference on Learning Representations},
+  year={2024},
+  url={https://openreview.net/forum?id=uREj4ZuGJE}
 }
 ```
