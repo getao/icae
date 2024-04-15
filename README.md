@@ -32,10 +32,12 @@ The first version of the ICAE model is based in the Llama-2-7b-chat, which is us
 If our work contributes to your research, please cite our paper:
 
 ```bibtex
-@article{ge2023context,
-  title={In-context autoencoder for context compression in a large language model},
-  author={Ge, Tao and Hu, Jing and Wang, Xun and Chen, Si-Qing and Wei, Furu},
-  journal={arXiv preprint arXiv:2307.06945},
-  year={2023}
+@inproceedings{
+ge2024incontext,
+title={In-context Autoencoder for Context Compression in a Large Language Model},
+author={Tao Ge and Hu Jing and Lei Wang and Xun Wang and Si-Qing Chen and Furu Wei},
+booktitle={The Twelfth International Conference on Learning Representations},
+year={2024},
+url={https://openreview.net/forum?id=uREj4ZuGJE}
 }
 ```
