@@ -13,7 +13,7 @@ This repository contains the code, data, and models pertaining to our paper ["In
 
 ### Updated (April 2024):
 
-Add pretrain.py, instruction_finetune.py and training_utils to icae_v2/, which can be used to train the ICAE.
+Add pretrain.py, instruction_finetune.py and training_utils.py to icae_v2/, which can be used to train the ICAE.
 
 ### Version 2 (March 2024)
 Two new ICAE models based on Mistral-7B were released. These include a pretrained model an instruction fine-tuned model. The inference code accompanying these models is also provided.
