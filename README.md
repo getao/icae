@@ -29,7 +29,7 @@ One can simply try the released ICAE models by running:
 cd icae/code/icae_v2
 # run the instruction fine-tuned ICAE model
 bash fine_tuned_inference_script.sh
-# run the pretrained ICAE model
+# Or run the pretrained ICAE model
 bash pretrained_inference_script.sh
 ```
 
