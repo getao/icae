@@ -24,7 +24,7 @@ In the release of V2, I move the dataset and models to my [huggingface repo](htt
 
 One can simply try the released ICAE models by running:
 
-```
+```bash
 cd icae/code/icae_v2
 # run the instruction fine-tuned ICAE model
 bash fine_buned_inference_script.sh
