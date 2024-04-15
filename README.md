@@ -1,6 +1,6 @@
 # In-context Autoencoder (ICAE)
 
-This repository contains the code, data, and models pertaining to our paper ["In-context Autoencoder for Context Compression in a Large Language Model"](https://arxiv.org/abs/2307.06945), which has been accepted by ICLR 2024.
+This repository contains the code, data, and models pertaining to our ICLR 2024 accepted paper ["In-context Autoencoder for Context Compression in a Large Language Model"](https://openreview.net/pdf?id=uREj4ZuGJE), which was initially announced on arXiv in July 2023 [here](https://arxiv.org/abs/2307.06945).
 
 ![ICAE Illustration](./icae_demo.png)
 
