@@ -6,6 +6,8 @@
 
 2. **Very important**: Don't use fp16 to train the ICAE; make sure you train the model with bfloat16.
 
+3. For v2 training code, it only supports batch size=1. If you want to support batch>1, you can modify the code but given our experiences, increasing the batch size does not introduce throughput increase.
+
 ## Updated Version (V2, March 2024):
 
 1. Two Mistral-based checkpoints along with corresponding inference code have been uploaded in the 'icae_v2/' folder.
